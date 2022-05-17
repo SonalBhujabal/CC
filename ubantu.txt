@@ -1,0 +1,25 @@
+##download
+https://drive.google.com/drive/u/0/mobile/folders/1me_nJJh0fvdDOXX3ew2jzGQpoP7f_iFt
+
+vm1
+login vagrant
+password : vagrant
+ifconfig
+ping
+ls
+touch transfer.txt
+ls
+nano transfer.txt(contro x then yes and enter)
+cat transfer.txt
+scp transfer.txt vagrant@(ip address vm2)/home/vagrant
+
+vm2
+login vagrant
+password : vagrant
+ifconfig
+ping
+ls/home
+ls
+cat transfer.txt
+
+
